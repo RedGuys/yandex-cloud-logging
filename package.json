@@ -1,0 +1,44 @@
+{
+  "name": "log4js-node-yandex-cloud-logging",
+  "version": "1.0.0",
+  "description": "Yandex Cloud Logging Appender for log4js-node",
+  "homepage": "https://github.com/RedGuys/yandex-cloud-logging",
+  "keywords": [
+    "logging",
+    "log",
+    "log4j",
+    "node",
+    "yandex-cloud-logging",
+    "yandex-logging"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "Ilya Petrov <me@redguy.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedGuys/yandex-cloud-logging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RedGuys/yandex-cloud-logging/issues"
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@yandex-cloud/nodejs-sdk": "^2.0.1",
+    "axios": "^0.26.1",
+    "debug": "^4.3.4",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "log4js": "^6.4.5"
+  }
+}
