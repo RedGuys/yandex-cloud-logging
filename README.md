@@ -17,7 +17,6 @@ Sends logging events to [Yandex Cloud Logging](https://cloud.yandex.ru/docs/logg
 * `keyData` - `string` - content of your private key
 * `destination` - `string` - destination group id
 * `timeout` - `number` (optional) - queue flush timeout in millisecond
-* `keyTimeout` - `number  ≤ 3600` (optional) - token update timeout in seconds
 
 ## Example
 
