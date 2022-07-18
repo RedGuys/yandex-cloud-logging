@@ -17,6 +17,8 @@ Sends logging events to [Yandex Cloud Logging](https://cloud.yandex.ru/docs/logg
 * `keyData` - `string` - content of your private key
 * `destination` - `string` - destination group id
 * `timeout` - `number` (optional) - queue flush timeout in millisecond
+* `resourceId` - `string` (optional) - resource id
+* `setCategoryAsResourceType` - `boolean` (optional) - sets resource type from category name, if false, resourceId required
 
 ## Example
 
