@@ -6,6 +6,7 @@ Sends logging events to [Yandex Cloud Logging](https://cloud.yandex.ru/docs/logg
 
 `npm install log4js-node-yandex-cloud-logging`
 
+`npm install log4js`
 (This is a plug-in appender for [log4js](https://log4js-node.github.io/log4js-node/), so you'll need that as well)
 
 
