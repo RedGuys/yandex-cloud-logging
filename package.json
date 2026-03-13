@@ -1,6 +1,6 @@
 {
   "name": "log4js-node-yandex-cloud-logging",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Yandex Cloud Logging Appender for log4js-node",
   "homepage": "https://github.com/RedGuys/yandex-cloud-logging",
   "keywords": [
